@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baxter Barlow</title>
+  <meta name="description"
+    content="Baxter Barlow is an MIT engineer working across neurotechnology, embedded sensing, computational biology, and neural decoding." />
+  <meta name="theme-color" content="#f9fafb" />
+  <meta property="og:title" content="Baxter Barlow" />
+  <meta property="og:description"
+    content="MIT engineer building systems that pull signal out of noisy biology, radar, and neural data." />
+  <meta property="og:image" content="photo.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="hero">
+    <div class="hero-bg">
+      <canvas id="automata"></canvas>
+    </div>
+
+    <div class="hero-card">
+      <div class="hero-card-inner">
+        <h1>Baxter Barlow</h1>
+        <p class="hero-subtitle">
+          MIT &middot; Computational Neuroscience + Mathematics
+        </p>
+        <p class="hero-bio">
+          Engineering methods to model, infer, and control complex systems. Working at the intersection of electrical
+          engineering, applied machine learning, and neuroscience.
+        </p>
+        <nav class="hero-links" aria-label="Primary">
+          <a href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+          <span>/</span>
+          <a href="https://github.com/baxter-barlow" target="_blank" rel="noreferrer">GitHub</a>
+          <span>/</span>
+          <a href="mailto:barlow@mit.edu">Email</a>
+          <span>/</span>
+          <a href="#work">Work</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <main class="content">
+    <section class="section" aria-labelledby="about">
+      <h2 id="about">About</h2>
+      <figure class="headshot">
+        <img src="photo.jpg" alt="Portrait of Baxter Barlow" />
+      </figure>
+      <p>
+        I'm a sophomore at MIT studying Computation and Cognition (6-9) and
+        Mathematics (18). My work centers on using mathematical approaches to
+        model and control complex systems, with a particular focus on neural
+        engineering.
+      </p>
+      <p>
+        I fell in love with systems thinking at age seven, when I first learned
+        to program. That curiosity eventually led me to cybersecurity, where I
+        found something deeply satisfying about reverse-engineering a
+        black-boxed system under tight constraints on observability and
+        perturbation. When I started undergrad, I decided to channel that same
+        fascination into neuroscience, which remains one of the least
+        understood yet most consequential dynamical systems we know of.
+      </p>
+      <p>
+        I previously worked in Ed Boyden's Synthetic Neurobiology Group, where
+        I applied reinforcement learning to computational protein design,
+        generating novel optogenetic protein variants. I later left academic
+        research to co-found Ambient Labs, a hardware startup building
+        radar-based systems for wireless, contactless monitoring of biometrics
+        and sleep quality.
+      </p>
+      <p>
+        In spring 2026, prompted by recent advances in the field, I paused my
+        radar work to focus entirely on non-invasive brain-computer interfaces.
+        I'm now building the first iteration of a next-generation consumer
+        neural interface based on functional ultrasound.
+      </p>
+    </section>
+
+    <section class="section" id="work" aria-labelledby="work-title">
+      <h2 id="work-title">Work and Research</h2>
+
+      <article class="entry">
+        <h3>Ambient Labs</h3>
+        <p class="meta">Co-founder and engineering lead &middot; Nov 2025 &ndash; Apr 2026</p>
+        <p>
+          Led end-to-end development of a mmWave radar system (TI IWR6843AOP)
+          for contactless physiological monitoring, achieving &plusmn;1 BPM
+          respiration and &plusmn;2&ndash;3 BPM heart-rate accuracy at 30 Hz
+          without wearables.
+        </p>
+        <ul>
+          <li>
+            Engineered real-time embedded inference pipelines with &lt;30 ms
+            latency on-device, operating under &lt;200 mW power and sub-MB
+            memory constraints.
+          </li>
+          <li>
+            Designed a diffusion-based radar point-cloud model for
+            through-obstruction pose estimation, achieving sub-centimeter
+            resolution and &gt;90% accuracy across diverse bedding conditions.
+          </li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <h3>Synthetic Neurobiology Group</h3>
+        <p class="meta">Undergraduate researcher &middot; Jan &ndash; Sep 2025</p>
+        <p>
+          Designed, constructed, and validated AAV-delivered optogenetic
+          circuits (ChR2-derived) for targeted neuronal control, demonstrating
+          light-evoked modulation of motor circuit activity in vitro and in
+          vivo (mouse) via calcium imaging and behavioral assays.
+        </p>
+        <ul>
+          <li>
+            Developed a reinforcement learning framework for protein design
+            leveraging pretrained protein language models, optimizing
+            sequence&ndash;structure mappings over 10<sup>4</sup>+ candidates
+            under functional and safety constraints for neuromodulation
+            applications.
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section" id="publications" aria-labelledby="pub-title">
+      <h2 id="pub-title">Publications</h2>
+      <article class="entry">
+        <h3>Emergent High-SINR Neural Decoding via Massive Ensembling of Diverse Weak Experts</h3>
+        <p class="meta">Baxter Barlow, Simon Kern, Gordon Feld &middot; ICLR 2027 (under review)</p>
+        <p>
+          Proposes a novel method of low-SNR neural decoding as
+          population-level inference: class-discriminative signal is recovered
+          from deviations around the ensemble mean, rather than from individual
+          predictions or constructive ensembling.
+        </p>
+        <ul>
+          <li>
+            Achieved 53% accuracy in low-SNR imagined imagery classification,
+            vastly outperforming previous state-of-the-art accuracy of 18%.
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section" id="credentials" aria-labelledby="credentials-title">
+      <h2 id="credentials-title">Credentials</h2>
+
+      <article class="entry">
+        <h3>Education</h3>
+        <p>
+          MIT, B.S. in Computation and Cognition + Mathematics, expected June
+          2028.
+        </p>
+        <ul>
+          <li>GPA: 5.0</li>
+          <li>
+            Coursework: Systems Neuroscience, Neural Computation and
+            Neurophysiology, Probability Theory, Statistical Inference, Real
+            Analysis, (Graduate) Signal Processing, Systems and Control
+            Theory, Analog Electronics Design.
+          </li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <h3>Recognition</h3>
+        <ul>
+          <li>2026 YC x MIT IAP pre-accelerator</li>
+          <li>2nd Place at the 2026 E14 Beyond the Lab Hackathon</li>
+          <li>EPOCH Fellowship nominee</li>
+          <li>$10k+ in bug bounties for security research across JetBlue, Reddit, BeReal, College Board, and others</li>
+          <li>3rd Place in the 2022 Congressional App Challenge</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section" id="profile" aria-labelledby="profile-title">
+      <h2 id="profile-title">Technical profile</h2>
+      <p>
+        I tend to do my best work where embedded systems, signal processing,
+        scientific validation, and machine learning all need to coexist in the
+        same stack.
+      </p>
+      <ul class="profile-list">
+        <li>Embedded and real-time inference pipelines</li>
+        <li>Signal-processing workflows tied to hardware realities</li>
+        <li>Diffusion models for radar point-cloud estimation</li>
+        <li>Reinforcement learning for constrained search</li>
+        <li>Ensembling and low-SNR neural decoding</li>
+        <li>Optogenetic circuit design, calcium imaging, and assays</li>
+        <li>Probability, statistical inference, and signal processing</li>
+        <li>Security research and adversarial debugging discipline</li>
+      </ul>
+    </section>
+
+    <footer class="footer-section" id="contact">
+
+      <nav class="footer-links" aria-label="Contact links">
+        <a href="mailto:barlow@mit.edu">barlow@mit.edu</a>
+        <span>/</span>
+        <a href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        <span>/</span>
+        <a href="https://github.com/baxter-barlow" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </footer>
+  </main>
+
+  <script>
+    (function () {
+      const canvas = document.getElementById("automata");
+      const ctx = canvas.getContext("2d");
+      let w, h, dpr;
+
+      let nodes = [];
+      let curves = [];
+      const maxDist = 140;
+
+      let mx = -9999, my = -9999;
+      document.addEventListener("pointermove", function (e) { mx = e.clientX; my = e.clientY; });
+      document.addEventListener("pointerleave", function () { mx = -9999; my = -9999; });
+
+      function resize() {
+        dpr = window.devicePixelRatio || 1;
+        w = canvas.parentElement.clientWidth;
+        h = canvas.parentElement.clientHeight;
+        canvas.width = w * dpr;
+        canvas.height = h * dpr;
+        canvas.style.width = w + "px";
+        canvas.style.height = h + "px";
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        createNetwork();
+      }
+
+      function dist(a, b) {
+        return Math.hypot(a.x - b.x, a.y - b.y);
+      }
+
+      function createNetwork() {
+        nodes = [];
+        curves = [];
+
+        const nodeCount = Math.floor((w * h) / (w < 600 ? 12000 : 7000));
+
+        for (let i = 0; i < nodeCount; i++) {
+          nodes.push({
+            x: Math.random() * w,
+            y: Math.random() * h,
+            r: 1.5 + Math.random() * 2,
+            glow: 0,
+          });
+        }
+
+        for (let i = 0; i < nodes.length; i++) {
+          for (let j = i + 1; j < nodes.length; j++) {
+            if (dist(nodes[i], nodes[j]) < maxDist) {
+              curves.push({ a: i, b: j, glow: 0 });
+              if (!nodes[i].connected) nodes[i].connected = [];
+              if (!nodes[j].connected) nodes[j].connected = [];
+              nodes[i].connected.push(curves.length - 1);
+              nodes[j].connected.push(curves.length - 1);
+            }
+          }
+        }
+      }
+
+      function animate() {
+        ctx.clearRect(0, 0, w, h);
+
+        const rect = canvas.getBoundingClientRect();
+        const cmx = mx > -999 ? mx - rect.left : -9999;
+        const cmy = mx > -999 ? my - rect.top : -9999;
+
+        // Random firing
+        if (Math.random() < 0.025) {
+          const node = nodes[Math.floor(Math.random() * nodes.length)];
+          node.glow = 1.0;
+          if (node.connected) node.connected.forEach(ci => { curves[ci].glow = 1.0; });
+        }
+
+        // Mouse proximity firing
+        if (cmx > -999) {
+          for (const node of nodes) {
+            const d = Math.hypot(node.x - cmx, node.y - cmy);
+            if (d < 100 && Math.random() < 0.06) {
+              node.glow = Math.max(node.glow, 0.9);
+              if (node.connected) node.connected.forEach(ci => {
+                curves[ci].glow = Math.max(curves[ci].glow, 0.8);
+              });
+            }
+          }
+        }
+
+        // Draw curves
+        for (const c of curves) {
+          const a = nodes[c.a], b = nodes[c.b];
+          const mx = (a.x + b.x) / 2;
+          const my = (a.y + b.y) / 2 - 25;
+
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.quadraticCurveTo(mx, my, b.x, b.y);
+
+          if (c.glow > 0.05) {
+            ctx.strokeStyle = `rgba(30,41,59,${(0.1 + c.glow * 0.35).toFixed(3)})`;
+            ctx.lineWidth = 0.5 + c.glow * 0.8;
+            c.glow *= 0.965;
+          } else {
+            ctx.strokeStyle = "rgba(0,0,0,0.11)";
+            ctx.lineWidth = 0.5;
+            c.glow = 0;
+          }
+          ctx.stroke();
+        }
+
+        // Draw nodes
+        for (const n of nodes) {
+          // Glow halo
+          if (n.glow > 0.1) {
+            ctx.beginPath();
+            ctx.arc(n.x, n.y, n.r + 8 * n.glow, 0, Math.PI * 2);
+            ctx.fillStyle = `rgba(30,41,59,${(0.08 * n.glow).toFixed(3)})`;
+            ctx.fill();
+          }
+
+          // Soma
+          ctx.beginPath();
+          ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+
+          if (n.glow > 0.1) {
+            ctx.fillStyle = `rgba(30,41,59,${(0.2 + 0.5 * n.glow).toFixed(3)})`;
+            n.glow *= 0.97;
+          } else {
+            ctx.fillStyle = "rgba(71,85,105,0.3)";
+            n.glow = 0;
+          }
+          ctx.fill();
+        }
+
+        requestAnimationFrame(animate);
+      }
+
+      resize();
+      requestAnimationFrame(animate);
+      window.addEventListener("resize", resize);
+    })();
+  </script>
+</body>
+
+</html>

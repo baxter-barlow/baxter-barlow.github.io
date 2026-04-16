@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baxter Barlow</title>
+  <meta name="description"
+    content="Baxter Barlow is an MIT engineer working across neurotechnology, embedded sensing, computational biology, and neural decoding." />
+  <meta name="theme-color" content="#f9fafb" />
+  <meta property="og:title" content="Baxter Barlow" />
+  <meta property="og:description"
+    content="MIT engineer building systems that pull signal out of noisy biology, radar, and neural data." />
+  <meta property="og:image" content="photo.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="hero">
+    <div class="hero-bg">
+      <canvas id="automata"></canvas>
+    </div>
+
+    <div class="hero-card">
+      <div class="hero-card-inner">
+        <div class="hero-top">
+          <div class="hero-copy">
+            <h1>Baxter Barlow</h1>
+        <p class="hero-subtitle">
+          MIT &middot; Computational Neuroscience + Mathematics
+        </p>
+          <p class="hero-bio">
+            Engineering methods to model, infer, and control complex systems. Working at the intersection of electrical
+            engineering, applied machine learning, and neuroscience.
+          </p>
+          </div>
+          <figure class="hero-portrait">
+            <img src="photo.jpg" alt="Portrait of Baxter Barlow" />
+          </figure>
+        </div>
+        <nav class="hero-links" aria-label="Primary">
+          <a href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+          <span>/</span>
+          <a href="https://github.com/baxter-barlow" target="_blank" rel="noreferrer">GitHub</a>
+          <span>/</span>
+          <a href="mailto:barlow@mit.edu">Email</a>
+          <span>/</span>
+          <a href="#work">Work</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <main class="content">
+    <section class="section" aria-labelledby="signal">
+      <h2 id="signal">Selected signal</h2>
+      <p class="signal-highlight">
+        ICLR 2027 paper under review on low-SNR neural decoding. MIT GPA 5.0.
+        Contactless respiration monitoring at &plusmn;1 BPM. Through-obstruction
+        pose estimation above 90 percent. On-device inference under 30 ms.
+        More than $10k in bug bounties across JetBlue, Reddit, BeReal, College
+        Board, and other platforms.
+      </p>
+    </section>
+
+    <section class="section" id="work" aria-labelledby="work-title">
+      <h2 id="work-title">Work</h2>
+
+      <article class="entry">
+        <h3>Ambient Labs</h3>
+        <p class="meta">Co-founder and engineering lead</p>
+        <p>
+          Led end-to-end development of a contactless physiological monitoring
+          system on TI's IWR6843AOP mmWave platform for respiration,
+          heart-rate, and pose estimation.
+        </p>
+        <ul>
+          <li>
+            Achieved &plusmn;1 BPM respiration accuracy and &plusmn;2 to 3 BPM
+            heart-rate accuracy without wearables.
+          </li>
+          <li>
+            Built a diffusion-based radar point-cloud model that maintained
+            above 90 percent pose accuracy through bedding and obstruction.
+          </li>
+          <li>
+            Worked inside deployment constraints including sub-megabyte memory
+            limits, under-200 mW power budgets, and real-time inference
+            latency targets.
+          </li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <h3>Synthetic Neurobiology Group</h3>
+        <p class="meta">Undergraduate researcher</p>
+        <p>
+          Designed, built, and validated AAV-delivered optogenetic circuits for
+          targeted neuronal control, then measured light-evoked modulation
+          through calcium imaging and behavioral assays.
+        </p>
+        <ul>
+          <li>Worked across in vitro and in vivo validation loops.</li>
+          <li>
+            Combined molecular design with experimental measurement rather
+            than stopping at concept or simulation.
+          </li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <h3>Computational biology</h3>
+        <p class="meta">Protein design with reinforcement learning</p>
+        <p>
+          Developed a reinforcement learning framework for protein design that
+          optimized sequence-structure mappings across 10<sup>4</sup>+
+          candidates under functional and safety constraints for
+          neuromodulation applications.
+        </p>
+        <ul>
+          <li>Used protein language models and constrained search.</li>
+          <li>
+            Focused on making machine learning serve a scientific objective
+            instead of optimizing in the abstract.
+          </li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <h3>Low-SNR neural decoding</h3>
+        <p class="meta">ICLR 2027 paper under review</p>
+        <p>
+          Proposed a decoding method that recovers class-discriminative signal
+          from deviations around the ensemble mean rather than any individual
+          expert prediction.
+        </p>
+        <ul>
+          <li>
+            Reached 53 percent imagined imagery classification accuracy versus
+            a prior 18 percent state of the art.
+          </li>
+          <li>
+            Strong combination of modeling, evaluation design, and research
+            communication.
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section" id="profile" aria-labelledby="profile-title">
+      <h2 id="profile-title">Technical profile</h2>
+      <p>
+        I tend to do my best work where embedded systems, signal processing,
+        scientific validation, and machine learning all need to coexist in the
+        same stack.
+      </p>
+      <ul class="profile-list">
+        <li>Embedded and real-time inference pipelines</li>
+        <li>Signal-processing workflows tied to hardware realities</li>
+        <li>Diffusion models for radar point-cloud estimation</li>
+        <li>Reinforcement learning for constrained search</li>
+        <li>Ensembling and low-SNR neural decoding</li>
+        <li>Optogenetic circuit design, calcium imaging, and assays</li>
+        <li>Probability, statistical inference, and signal processing</li>
+        <li>Security research and adversarial debugging discipline</li>
+      </ul>
+    </section>
+
+    <section class="section" id="credentials" aria-labelledby="credentials-title">
+      <h2 id="credentials-title">Credentials</h2>
+
+      <article class="entry">
+        <h3>Education</h3>
+        <p>
+          MIT, B.S. in Computation and Cognition + Mathematics, expected June
+          2028.
+        </p>
+        <ul>
+          <li>GPA: 5.0</li>
+          <li>
+            Coursework includes systems neuroscience, neural computation and
+            neurophysiology, statistical inference, signal processing, systems
+            and control, and analog electronics design.
+          </li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <h3>Recognition</h3>
+        <ul>
+          <li>2026 YC x MIT IAP pre-accelerator</li>
+          <li>2nd Place at the 2026 E14 Beyond the Lab Hackathon</li>
+          <li>EPOCH Fellowship nominee</li>
+          <li>3rd Place in the 2022 Congressional App Challenge</li>
+        </ul>
+      </article>
+    </section>
+
+    <footer class="footer-section" id="contact">
+      <h2>Contact</h2>
+      <p>
+        Best fit for neurotechnology, embedded sensing, applied machine
+        learning, and engineering-heavy research problems that care about
+        rigorous measurement.
+      </p>
+      <nav class="footer-links" aria-label="Contact links">
+        <a href="mailto:barlow@mit.edu">barlow@mit.edu</a>
+        <span>/</span>
+        <a href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        <span>/</span>
+        <a href="https://github.com/baxter-barlow" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </footer>
+  </main>
+
+  <script>
+    (function () {
+      const canvas = document.getElementById("automata");
+      const ctx = canvas.getContext("2d");
+      const heroName = document.querySelector(".hero-copy h1");
+      const NAME_LINES = heroName
+        ? heroName.textContent.trim().split(/\s+/)
+        : ["Baxter", "Barlow"];
+
+      const SPACING = 8;
+      const JITTER = 2.4;
+      const STROKE_LEN = 13;
+      const NOISE_SCALE = 0.00072;
+      const TIME_SPEED = 0.00005;
+      const MOUSE_RADIUS = 320;
+      const TEXT_INFLUENCE = 140;
+      const TEXT_GAP = 6;
+      const TEXT_PUSH = 2;
+
+      const DOME_HEIGHT = 240;
+      const DOME_RADIUS_X = 0.4;
+      const DOME_RADIUS_Y = 0.34;
+      const PERSPECTIVE = 820;
+
+      let w, h, dpr;
+      let mx = -9999,
+        my = -9999;
+      let smx = -9999,
+        smy = -9999;
+      let jitterX, jitterY, cellAlpha;
+      let cols, rows;
+      let maskCanvas, maskData, maskW, maskH;
+      let distField, dirX, dirY;
+      let nameLayout;
+
+      const EMPTY_TEXT = Object.freeze({
+        inside: false,
+        inf: 0,
+        angle: 0,
+        push: 0,
+        dx: 0,
+        dy: 0,
+        glow: 0,
+      });
+
+      const FONT_FAMILY =
+        'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+
+      function clamp(value, min, max) {
+        return Math.min(max, Math.max(min, value));
+      }
+
+      function fade(t) {
+        return t * t * t * (t * (t * 6 - 15) + 10);
+      }
+
+      function lerp(a, b, t) {
+        return a + t * (b - a);
+      }
+
+      function getNameLayout() {
+        const fontSize = Math.min(w * 0.068, 96);
+        const lineGap = fontSize * 1.06;
+        const centerY = h * 0.38;
+        const totalHeight = (NAME_LINES.length - 1) * lineGap;
+        return {
+          x: w / 2,
+          centerY,
+          fontSize,
+          lineGap,
+          firstLineY: centerY - totalHeight / 2,
+          font: `760 ${fontSize}px ${FONT_FAMILY}`,
+        };
+      }
+
+      function drawNameText(target, layout, drawLine) {
+        target.font = layout.font;
+        target.textAlign = "center";
+        target.textBaseline = "middle";
+        for (let i = 0; i < NAME_LINES.length; i++) {
+          drawLine(NAME_LINES[i], layout.x, layout.firstLineY + i * layout.lineGap);
+        }
+      }
+
+      function buildTextMask() {
+        nameLayout = getNameLayout();
+        maskCanvas = document.createElement("canvas");
+        maskW = w;
+        maskH = h;
+        maskCanvas.width = maskW;
+        maskCanvas.height = maskH;
+        const mc = maskCanvas.getContext("2d", { willReadFrequently: true });
+
+        mc.clearRect(0, 0, maskW, maskH);
+        mc.fillStyle = "#000";
+        drawNameText(mc, nameLayout, function (line, x, y) {
+          mc.fillText(line, x, y);
+        });
+
+        const imageData = mc.getImageData(0, 0, maskW, maskH);
+        maskData = new Uint8Array(maskW * maskH);
+        for (let i = 0; i < maskW * maskH; i++) {
+          maskData[i] = imageData.data[i * 4 + 3] > 128 ? 1 : 0;
+        }
+
+        const INF = 1e9;
+        distField = new Float32Array(maskW * maskH);
+        const nearX = new Int16Array(maskW * maskH);
+        const nearY = new Int16Array(maskW * maskH);
+
+        for (let y = 0; y < maskH; y++) {
+          for (let x = 0; x < maskW; x++) {
+            const idx = y * maskW + x;
+            if (maskData[idx]) {
+              let edge = false;
+              for (let dy = -1; dy <= 1 && !edge; dy++) {
+                for (let dx = -1; dx <= 1 && !edge; dx++) {
+                  if (dx === 0 && dy === 0) continue;
+                  const nx = x + dx;
+                  const ny = y + dy;
+                  if (nx < 0 || nx >= maskW || ny < 0 || ny >= maskH) {
+                    edge = true;
+                    break;
+                  }
+                  if (!maskData[ny * maskW + nx]) edge = true;
+                }
+              }
+              distField[idx] = edge ? 0 : -1;
+              nearX[idx] = edge ? x : -1;
+              nearY[idx] = edge ? y : -1;
+            } else {
+              distField[idx] = INF;
+              nearX[idx] = -1;
+              nearY[idx] = -1;
+            }
+          }
+        }
+
+        for (let y = 0; y < maskH; y++) {
+          for (let x = 0; x < maskW; x++) {
+            const idx = y * maskW + x;
+            if (maskData[idx] && distField[idx] < 0) continue;
+            const check = (nx, ny) => {
+              if (nx < 0 || nx >= maskW || ny < 0 || ny >= maskH) return;
+              const nIdx = ny * maskW + nx;
+              if (nearX[nIdx] < 0) return;
+              const ex = nearX[nIdx];
+              const ey = nearY[nIdx];
+              const d = Math.sqrt((x - ex) * (x - ex) + (y - ey) * (y - ey));
+              if (d < distField[idx]) {
+                distField[idx] = d;
+                nearX[idx] = ex;
+                nearY[idx] = ey;
+              }
+            };
+            check(x - 1, y - 1);
+            check(x, y - 1);
+            check(x + 1, y - 1);
+            check(x - 1, y);
+          }
+        }
+
+        for (let y = maskH - 1; y >= 0; y--) {
+          for (let x = maskW - 1; x >= 0; x--) {
+            const idx = y * maskW + x;
+            if (maskData[idx] && distField[idx] < 0) continue;
+            const check = (nx, ny) => {
+              if (nx < 0 || nx >= maskW || ny < 0 || ny >= maskH) return;
+              const nIdx = ny * maskW + nx;
+              if (nearX[nIdx] < 0) return;
+              const ex = nearX[nIdx];
+              const ey = nearY[nIdx];
+              const d = Math.sqrt((x - ex) * (x - ex) + (y - ey) * (y - ey));
+              if (d < distField[idx]) {
+                distField[idx] = d;
+                nearX[idx] = ex;
+                nearY[idx] = ey;
+              }
+            };
+            check(x + 1, y);
+            check(x - 1, y + 1);
+            check(x, y + 1);
+            check(x + 1, y + 1);
+          }
+        }
+
+        dirX = new Float32Array(maskW * maskH);
+        dirY = new Float32Array(maskW * maskH);
+        for (let y = 0; y < maskH; y++) {
+          for (let x = 0; x < maskW; x++) {
+            const idx = y * maskW + x;
+            if (maskData[idx]) continue;
+            if (distField[idx] > TEXT_INFLUENCE || nearX[idx] < 0) continue;
+            const dx = x - nearX[idx];
+            const dy = y - nearY[idx];
+            const d = Math.sqrt(dx * dx + dy * dy) || 1;
+            dirX[idx] = dx / d;
+            dirY[idx] = dy / d;
+          }
+        }
+      }
+
+      function sampleArray(array, x, y, fallback) {
+        if (x < 0 || x >= maskW || y < 0 || y >= maskH) return fallback;
+        const x0 = Math.floor(x);
+        const y0 = Math.floor(y);
+        const x1 = Math.min(maskW - 1, x0 + 1);
+        const y1 = Math.min(maskH - 1, y0 + 1);
+        const tx = x - x0;
+        const ty = y - y0;
+        const i00 = y0 * maskW + x0;
+        const i10 = y0 * maskW + x1;
+        const i01 = y1 * maskW + x0;
+        const i11 = y1 * maskW + x1;
+        return lerp(
+          lerp(array[i00], array[i10], tx),
+          lerp(array[i01], array[i11], tx),
+          ty
+        );
+      }
+
+      function sampleMask(x, y) {
+        return sampleArray(maskData, x, y, 0);
+      }
+
+      function sampleDist(x, y) {
+        return sampleArray(distField, x, y, TEXT_INFLUENCE + TEXT_GAP + 1);
+      }
+
+      function sampleDir(x, y) {
+        const dx = sampleArray(dirX, x, y, 0);
+        const dy = sampleArray(dirY, x, y, 0);
+        const mag = Math.hypot(dx, dy);
+        if (mag < 1e-3) return { dx: 0, dy: 0 };
+        return { dx: dx / mag, dy: dy / mag };
+      }
+
+      const P = new Uint8Array(512);
+      (function () {
+        const p = new Uint8Array(256);
+        for (let i = 0; i < 256; i++) p[i] = i;
+        for (let i = 255; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [p[i], p[j]] = [p[j], p[i]];
+        }
+        for (let i = 0; i < 512; i++) P[i] = p[i & 255];
+      })();
+
+      const G = [
+        [1, 1],
+        [-1, 1],
+        [1, -1],
+        [-1, -1],
+        [1, 0],
+        [-1, 0],
+        [0, 1],
+        [0, -1],
+      ];
+
+      function noise(x, y) {
+        const xi = Math.floor(x) & 255;
+        const yi = Math.floor(y) & 255;
+        const xf = x - Math.floor(x);
+        const yf = y - Math.floor(y);
+        const u = fade(xf);
+        const v = fade(yf);
+        const dot = (i, fx, fy) => G[i][0] * fx + G[i][1] * fy;
+        return lerp(
+          lerp(
+            dot(P[P[xi] + yi] & 7, xf, yf),
+            dot(P[P[xi + 1] + yi] & 7, xf - 1, yf),
+            u
+          ),
+          lerp(
+            dot(P[P[xi] + yi + 1] & 7, xf, yf - 1),
+            dot(P[P[xi + 1] + yi + 1] & 7, xf - 1, yf - 1),
+            u
+          ),
+          v
+        );
+      }
+
+      function field(x, y, t) {
+        const s = NOISE_SCALE;
+        return (
+          noise(x * s + t, y * s + t * 0.55) * 0.55 +
+          noise(x * s * 1.9 + 41.3 + t * 0.25, y * s * 1.9 + 73.1 + t * 0.35) *
+            0.3 +
+          noise(x * s * 3.8 + 97.8, y * s * 3.8 + 23.4) * 0.15
+        );
+      }
+
+      function curlAngle(x, y, t) {
+        const e = 3.5;
+        const dnx = (field(x + e, y, t) - field(x - e, y, t)) / (2 * e);
+        const dny = (field(x, y + e, t) - field(x, y - e, t)) / (2 * e);
+        return Math.atan2(-dnx, dny);
+      }
+
+      function buildJitter() {
+        const n = cols * rows;
+        jitterX = new Float32Array(n);
+        jitterY = new Float32Array(n);
+        cellAlpha = new Float32Array(n);
+        for (let i = 0; i < n; i++) {
+          jitterX[i] = (Math.random() - 0.5) * JITTER * 2;
+          jitterY[i] = (Math.random() - 0.5) * JITTER * 2;
+          cellAlpha[i] = 0.15 + Math.random() * 0.28;
+        }
+      }
+
+      function resize() {
+        dpr = window.devicePixelRatio || 1;
+        w = canvas.parentElement.clientWidth;
+        h = canvas.parentElement.clientHeight;
+        canvas.width = w * dpr;
+        canvas.height = h * dpr;
+        canvas.style.width = `${w}px`;
+        canvas.style.height = `${h}px`;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        cols = Math.ceil(w / SPACING) + 2;
+        rows = Math.ceil(h / SPACING) + 2;
+        buildJitter();
+        buildTextMask();
+      }
+
+      function shortAngleDist(from, to) {
+        return ((to - from + Math.PI * 3) % (Math.PI * 2)) - Math.PI;
+      }
+
+      document.addEventListener("pointermove", function (e) {
+        mx = e.clientX;
+        my = e.clientY;
+      });
+
+      document.addEventListener("pointerleave", function () {
+        mx = -9999;
+        my = -9999;
+      });
+
+      function mouseAt(x, y) {
+        if (smx < -999) return { inf: 0, angle: 0 };
+        const dx = x - smx;
+        const dy = y - smy;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist >= MOUSE_RADIUS) return { inf: 0, angle: 0 };
+        const r = 1 - dist / MOUSE_RADIUS;
+        const inf = r * r * (3 - 2 * r);
+        const angle = Math.atan2(dy, dx) + Math.PI * 0.5;
+        return { inf, angle };
+      }
+
+      function textAt(x, y) {
+        if (sampleMask(x, y) > 0.2) {
+          return { ...EMPTY_TEXT, inside: true };
+        }
+
+        const dist = sampleDist(x, y);
+        if (dist < TEXT_GAP) {
+          return { ...EMPTY_TEXT, inside: true };
+        }
+        if (dist > TEXT_INFLUENCE) return EMPTY_TEXT;
+
+        const dir = sampleDir(x, y);
+        if (dir.dx === 0 && dir.dy === 0) return EMPTY_TEXT;
+
+        const proximity = 1 - (dist - TEXT_GAP) / (TEXT_INFLUENCE - TEXT_GAP);
+        const bend = Math.pow(clamp(proximity, 0, 1), 1.55);
+        return {
+          inside: false,
+          inf: bend * 0.96,
+          angle: Math.atan2(-dir.dx, dir.dy),
+          push: TEXT_PUSH * bend * bend,
+          dx: dir.dx,
+          dy: dir.dy,
+          glow: bend,
+        };
+      }
+
+      function domeZ(x, y) {
+        const dcx = w / 2;
+        const dcy = h * 0.38;
+        const rx = w * DOME_RADIUS_X;
+        const ry = h * DOME_RADIUS_Y;
+        const nx = (x - dcx) / rx;
+        const ny = (y - dcy) / ry;
+        const r2 = nx * nx + ny * ny;
+        if (r2 >= 1) return 0;
+        return DOME_HEIGHT * Math.exp(-r2 * 2.3);
+      }
+
+      function project(x, y, z) {
+        const scale = PERSPECTIVE / (PERSPECTIVE - z);
+        return {
+          x: w / 2 + (x - w / 2) * scale,
+          y: h * 0.38 + (y - h * 0.38) * scale,
+          scale,
+        };
+      }
+
+      function drawAtmosphere(t) {
+        const coreX = w * (0.49 + Math.cos(t * 9) * 0.02);
+        const coreY = h * (0.34 + Math.sin(t * 8) * 0.015);
+        const halo = ctx.createRadialGradient(
+          coreX,
+          coreY,
+          0,
+          coreX,
+          coreY,
+          Math.max(w, h) * 0.44
+        );
+        halo.addColorStop(0, "rgba(115, 150, 214, 0.18)");
+        halo.addColorStop(0.38, "rgba(115, 150, 214, 0.08)");
+        halo.addColorStop(1, "rgba(115, 150, 214, 0)");
+        ctx.fillStyle = halo;
+        ctx.fillRect(0, 0, w, h);
+
+        const sweep = ctx.createLinearGradient(0, 0, w, h);
+        sweep.addColorStop(0, "rgba(255, 255, 255, 0.16)");
+        sweep.addColorStop(0.45, "rgba(148, 163, 184, 0.05)");
+        sweep.addColorStop(1, "rgba(15, 23, 42, 0.03)");
+        ctx.fillStyle = sweep;
+        ctx.fillRect(0, 0, w, h);
+      }
+
+      function drawName() {
+        const layout = nameLayout || getNameLayout();
+        const textZ = domeZ(layout.x, layout.centerY);
+        const tp = project(layout.x, layout.centerY, textZ);
+        const scale = PERSPECTIVE / (PERSPECTIVE - textZ);
+        const scaledFont = layout.fontSize * scale;
+        const scaledGap = layout.lineGap * scale;
+        const firstLineY = tp.y - ((NAME_LINES.length - 1) * scaledGap) / 2;
+
+        const halo = ctx.createRadialGradient(
+          tp.x,
+          tp.y,
+          scaledFont * 0.15,
+          tp.x,
+          tp.y,
+          scaledFont * 1.15
+        );
+        halo.addColorStop(0, "rgba(102, 145, 214, 0.06)");
+        halo.addColorStop(0.42, "rgba(102, 145, 214, 0.025)");
+        halo.addColorStop(1, "rgba(102, 145, 214, 0)");
+        ctx.fillStyle = halo;
+        ctx.fillRect(0, 0, w, h);
+
+        ctx.save();
+        ctx.font = `760 ${scaledFont}px ${FONT_FAMILY}`;
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.lineJoin = "round";
+        ctx.shadowColor = "rgba(94, 128, 188, 0.18)";
+        ctx.shadowBlur = scaledFont * 0.16;
+
+        const gradient = ctx.createLinearGradient(
+          tp.x,
+          firstLineY - scaledFont * 0.8,
+          tp.x,
+          firstLineY + scaledGap * (NAME_LINES.length - 1) + scaledFont * 0.8
+        );
+        gradient.addColorStop(0, "#0f172a");
+        gradient.addColorStop(0.56, "#0f172a");
+        gradient.addColorStop(1, "#274c77");
+
+        ctx.strokeStyle = "rgba(255, 255, 255, 0.6)";
+        ctx.lineWidth = Math.max(1, scaledFont * 0.018);
+        ctx.fillStyle = gradient;
+
+        for (let i = 0; i < NAME_LINES.length; i++) {
+          const y = firstLineY + i * scaledGap;
+          ctx.strokeText(NAME_LINES[i], tp.x, y);
+          ctx.fillText(NAME_LINES[i], tp.x, y);
+        }
+        ctx.restore();
+      }
+
+      function animate(ts) {
+        const t = ts * TIME_SPEED;
+        const rect = canvas.getBoundingClientRect();
+        const cmx = mx > -999 ? mx - rect.left : -9999;
+        const cmy = mx > -999 ? my - rect.top : -9999;
+
+        if (cmx > -999) {
+          if (smx < -999) {
+            smx = cmx;
+            smy = cmy;
+          }
+          smx += (cmx - smx) * 0.12;
+          smy += (cmy - smy) * 0.12;
+        } else {
+          smx = -9999;
+          smy = -9999;
+        }
+
+        ctx.clearRect(0, 0, w, h);
+        drawAtmosphere(t);
+        ctx.lineCap = "round";
+
+        for (let row = 0; row < rows; row++) {
+          for (let col = 0; col < cols; col++) {
+            const idx = row * cols + col;
+            const baseX = col * SPACING + jitterX[idx];
+            const baseY = row * SPACING + jitterY[idx];
+            const txt = textAt(baseX, baseY);
+            if (txt.inside) continue;
+
+            const sampleX = baseX + txt.dx * txt.push;
+            const sampleY = baseY + txt.dy * txt.push;
+            let angle = curlAngle(sampleX, sampleY, t);
+            const flowNoise = clamp(
+              0.5 + 0.5 * field(sampleX + 140, sampleY - 110, t * 0.85),
+              0,
+              1
+            );
+            angle += (flowNoise - 0.5) * 0.16;
+
+            const aheadX = sampleX + Math.cos(angle) * STROKE_LEN;
+            const aheadY = sampleY + Math.sin(angle) * STROKE_LEN;
+            let angle2 = curlAngle(aheadX, aheadY, t);
+
+            if (txt.inf > 0) {
+              angle += shortAngleDist(angle, txt.angle) * txt.inf;
+              angle2 += shortAngleDist(angle2, txt.angle) * txt.inf;
+            }
+
+            const z = domeZ(sampleX, sampleY);
+            const p = project(sampleX, sampleY, z);
+            const sc = p.scale;
+
+            let len = STROKE_LEN * (0.9 + flowNoise * 0.55) * sc;
+            let alpha =
+              cellAlpha[idx] * (0.52 + 0.42 * sc) * (0.76 + flowNoise * 0.34);
+            let maxLw = (0.38 + 0.68 * sc) * (0.84 + flowNoise * 0.24);
+
+            if (txt.glow > 0) {
+              len += txt.glow * 1.4 * sc;
+              alpha += txt.glow * 0.14;
+              maxLw += txt.glow * 0.1;
+            }
+
+            const m = mouseAt(p.x, p.y);
+            if (m.inf > 0) {
+              angle += shortAngleDist(angle, m.angle) * m.inf * 0.88;
+              angle2 += shortAngleDist(angle2, m.angle) * m.inf * 0.88;
+              len += 10 * m.inf * sc;
+              alpha += 0.4 * m.inf;
+              maxLw += 0.72 * m.inf;
+            }
+
+            const cos1 = Math.cos(angle);
+            const sin1 = Math.sin(angle);
+            const cos2 = Math.cos(angle2);
+            const sin2 = Math.sin(angle2);
+            const flatLen = len / Math.max(sc, 0.001);
+
+            const tailFlat = {
+              x: sampleX - cos1 * flatLen,
+              y: sampleY - sin1 * flatLen,
+            };
+            const headFlat = {
+              x: sampleX + cos2 * flatLen,
+              y: sampleY + sin2 * flatLen,
+            };
+
+            if (
+              sampleMask(tailFlat.x, tailFlat.y) > 0.18 ||
+              sampleMask(headFlat.x, headFlat.y) > 0.18 ||
+              sampleDist(tailFlat.x, tailFlat.y) < TEXT_GAP * 0.15 ||
+              sampleDist(headFlat.x, headFlat.y) < TEXT_GAP * 0.15
+            ) {
+              continue;
+            }
+
+            const tail = project(tailFlat.x, tailFlat.y, domeZ(tailFlat.x, tailFlat.y));
+            const head = project(headFlat.x, headFlat.y, domeZ(headFlat.x, headFlat.y));
+
+            const segs = 5;
+            const pts = [];
+            for (let s = 0; s <= segs; s++) {
+              const st = s / segs;
+              const u = 1 - st;
+              pts.push({
+                x: u * u * tail.x + 2 * u * st * p.x + st * st * head.x,
+                y: u * u * tail.y + 2 * u * st * p.y + st * st * head.y,
+              });
+            }
+
+            const depth = clamp((sc - 1) / 0.42, 0, 1);
+            const highlight = Math.max(txt.glow * 0.95, depth * 0.55);
+            const red = Math.round(59 + 18 * flowNoise + 18 * highlight);
+            const green = Math.round(80 + 18 * flowNoise + 24 * highlight);
+            const blue = Math.round(108 + 30 * flowNoise + 46 * highlight);
+            const mid = segs / 2;
+
+            for (let i = 0; i < segs; i++) {
+              const taper = 1 - Math.abs(i - mid + 0.5) / mid;
+              const strength = taper * taper;
+              ctx.beginPath();
+              ctx.moveTo(pts[i].x, pts[i].y);
+              ctx.lineTo(pts[i + 1].x, pts[i + 1].y);
+              ctx.strokeStyle = `rgba(${red},${green},${blue},${(
+                alpha * (0.22 + 0.78 * strength)
+              ).toFixed(3)})`;
+              ctx.lineWidth = 0.1 + maxLw * strength;
+              ctx.stroke();
+            }
+          }
+        }
+
+        drawName();
+        requestAnimationFrame(animate);
+      }
+
+      function init() {
+        resize();
+        requestAnimationFrame(animate);
+      }
+
+      init();
+      window.addEventListener("resize", resize);
+    })();
+  </script>
+</body>
+
+</html>
